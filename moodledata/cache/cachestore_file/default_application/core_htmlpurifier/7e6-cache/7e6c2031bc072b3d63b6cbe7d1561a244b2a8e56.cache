@@ -1,0 +1,6 @@
+s:430:"<p>When selected, the user's progress with activities will be shown in each tile, either as a <em>fraction</em> (e.g. 'Progress 2/10' meaning 2 out of 10 activities complete), or as a <em>percentage</em> in a circle.</p>
+
+<p>This can only be used if 'Completion &gt; Enable completion tracking' has been switched on.</p>
+
+<p>If there are no trackable activities within a given tile, indicator will not be shown for that tile.</p>
+";

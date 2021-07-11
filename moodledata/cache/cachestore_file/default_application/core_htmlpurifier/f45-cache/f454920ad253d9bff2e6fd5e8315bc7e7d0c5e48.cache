@@ -1,0 +1,8 @@
+s:350:"<p>There are 4 grade types:</p>
+
+<ul><li>None - No grading possible</li>
+<li>Value - A numerical value with a maximum and minimum</li>
+<li>Scale - An item in a list</li>
+<li>Text - Feedback only</li>
+</ul><p>Only value and scale grade types may be aggregated. The grade type for an activity-based grade item is set on the activity settings page.</p>
+";

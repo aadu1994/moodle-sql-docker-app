@@ -1,0 +1,29 @@
+[Wed 19 Jun 2019 17:52:33 PKT] [info] instantiating restore controller 9f9f896cc9b7b5496a940482efc73b7a
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 100
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] loading backup info
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] loading controller plan
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 300
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] applying restore defaults
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] Unknown setting: questionbank
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] Unknown setting: overwrite_conf
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] Unknown setting: course_fullname
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] Unknown setting: course_shortname
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] Unknown setting: course_startdate
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] Unknown setting: questionbank
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 400
+[Wed 19 Jun 2019 17:52:33 PKT] [info] checking plan security
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 600
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] saving controller to db
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] calculating controller checksum 0cf3c9f8eae271e33893262850d413fb
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] loading controller from db
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 700
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] saving controller to db
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] calculating controller checksum 6399e10dd27bc873db27819381aa1423
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] loading controller from db
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 800
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] saving controller to db
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] calculating controller checksum 7643511b4a7e001ba7a5610c2662e2e3
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] loading controller from db
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] processing file aliases queue
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] setting controller status to 1000
+[Wed 19 Jun 2019 17:52:33 PKT] [debug] saving controller to db

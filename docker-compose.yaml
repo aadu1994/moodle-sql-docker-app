@@ -1,0 +1,47 @@
+version: '2'
+services:
+
+#Nginx Service
+  application:
+    image: moodle_application_image
+    container_name: moodle-application-container
+#    restart: unless-stopped
+#    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - app-network
+
+  #MySQL Service
+  db:
+    image: moodle_mysql_image
+    container_name: moodle-db
+#    restart: unless-stopped
+#    tty: true
+    ports:
+      - "3306:3306"
+    #environment:
+     # MYSQL_DATABASE: User
+      #MYSQL_ROOT_PASSWORD: moodle123
+      #SERVICE_TAGS: dev
+      #SERVICE_NAME: mysql
+
+#    command: tail -f /dev/null
+    volumes:
+      - dbdata:/var/lib/mysql
+#      - ./mysql/my.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
+    networks:
+      - app-network
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local

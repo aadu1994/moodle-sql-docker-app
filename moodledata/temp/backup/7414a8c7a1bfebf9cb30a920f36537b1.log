@@ -1,0 +1,14 @@
+[Fri 21 Jun 2019 11:01:58 PKT] [info] instantiating backup controller 7414a8c7a1bfebf9cb30a920f36537b1
+[Fri 21 Jun 2019 11:02:00 PKT] [debug] setting controller status to 100
+[Fri 21 Jun 2019 11:02:02 PKT] [debug] loading controller plan
+[Fri 21 Jun 2019 11:02:02 PKT] [debug] setting controller status to 300
+[Fri 21 Jun 2019 11:02:03 PKT] [debug] applying plan defaults
+[Fri 21 Jun 2019 11:02:03 PKT] [debug] setting controller status to 400
+[Fri 21 Jun 2019 11:02:03 PKT] [debug] setting file inclusion to 0
+[Fri 21 Jun 2019 11:02:04 PKT] [info] checking plan security
+[Fri 21 Jun 2019 11:02:04 PKT] [debug] setting controller status to 500
+[Fri 21 Jun 2019 11:02:04 PKT] [info] checking plan security
+[Fri 21 Jun 2019 11:02:05 PKT] [info] checking plan security
+[Fri 21 Jun 2019 11:02:06 PKT] [info] checking plan security
+[Fri 21 Jun 2019 11:02:06 PKT] [debug] saving controller to db
+[Fri 21 Jun 2019 11:02:06 PKT] [debug] calculating controller checksum 9eb3c9d7a3a85c2506190749493b7aa4

@@ -1,0 +1,6 @@
+s:328:"<p>This setting determines how grades are displayed in the grader and user reports.</p>
+
+<ul><li>Letter - Letters or words are used to represent a range of grades, as defined in 'Letters' in the gradebook setup</li>
+<li>Percentage - Relative to maximum and minimum grades</li>
+<li>Real - Actual grades or scale values</li>
+</ul>";

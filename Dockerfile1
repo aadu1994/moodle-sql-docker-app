@@ -1,0 +1,40 @@
+FROM ubuntu:16.04
+
+
+# Clear cache
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update
+
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y mysql-server nano
+
+
+ENV DB_USER moodleUser
+ENV DB_PASSWORD moodle123
+ENV DB_NAME moodle
+ENV VOLUME_HOME "/var/lib/mysql"
+
+
+EXPOSE 9000 80 443 3306
+
+RUN mkdir /var/run/mysqld
+
+RUN  chown -R mysql:mysql /var/lib/mysql /var/run/mysqld /etc/mysql /usr/share/mysql /usr/share/mysql-common
+
+RUN find /var/lib/mysql -type f -exec touch {} \;
+
+
+RUN cp /etc/mysql/my.cnf /usr/share/mysql/my-default.cnf
+
+VOLUME /var/lib/mysql
+
+
+CMD ["service mysql start"]
+
+WORKDIR /
+
+
+ADD aspire_dump.sql /aspire_dump.sql
+
+ADD start-mysql.sh /start-mysql.sh
+CMD ["./start-mysql.sh"]

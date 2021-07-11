@@ -1,0 +1,43 @@
+{{{ output.doctype }}}
+<html {{{ output.htmlattributes }}}>
+<head>
+    <title>{{{ output.page_title }}}</title>
+    <link rel="shortcut icon" href="{{{ output.favicon }}}" />
+    {{{ output.standard_head_html }}}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    
+    {{! Style Added by Zohaib Asim - Dated 19/6/2019 }}
+    <style>
+        #frontpage-available-course-list{
+            padding-top : 2%;
+        }
+        #frontpage-available-course-list h2{
+                text-align: center;
+                margin-bottom: 2%;
+        }
+
+        @media (min-width: 240px) and (max-width: 767px) {
+            #intro h1 {
+                margin-top: 1%; 
+                margin-bottom: 1%; 
+                font-size: 180%;
+            }
+
+            #intro h2{
+                 font-size: 150%;
+            }   
+        }
+    </style>
+</head>
+
+<body {{{ bodyattributes }}}>
+
+{{>theme_moove/header}}
+
+<div id="page-wrapper">
+
+    {{{ output.standard_top_of_body_html }}}
